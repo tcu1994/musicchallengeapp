@@ -169,7 +169,7 @@ const {MongoClient} = require("mongodb");
 const challenge = require('./models/challenge');
   
 // Server pat
-
+url = 'mongodb+srv://tonko:tonko123@cluster0.x9vdu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 MongoClient.connect(url, (err,client)=>{
     if(!err) {
         console.log("successful connection with the server");  
